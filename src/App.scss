@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #282a36;
+}
+
+.logoBar {
+    background-color: #f6ac1e;
+    display: flex;
+    justify-content: center;
+
+    .logoImg {
+        width: 16rem;
+        padding: 1rem;
+    }
+}
