@@ -6,6 +6,8 @@
 
 body {
     background-color: #f6ac1e;
+    color: #ffffff;
+    text-align: center;
 }
 
 .logoBar {
@@ -21,6 +23,7 @@ body {
 
 .navbar {
     background-color: #de0010;
+    font-weight: 400;
 }
 
 #link-style {
@@ -36,9 +39,4 @@ body {
     margin-top: 2rem;
     margin-bottom: 2rem;
 
-}
-
-h2 {
-    color: #ffffff;
-    font-weight: 400;
 }
