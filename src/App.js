@@ -3,10 +3,11 @@ import React from 'react';
 //Components
 import { Navbar, Nav, Container, Row, Col } from 'react-bootstrap';
 import { Switch, Route } from 'react-router-dom';
-import ReadAll from './Components/ReadAll/ReadAll'
-import Create from './Components/Create/Create'
-import DeleteAll from './Components/DeleteAll/DeleteAll.js'
-import About from './Components/About/About'
+import ReadAll from './Components/ReadAll/ReadAll';
+import Create from './Components/Create/Create';
+import DeleteAll from './Components/DeleteAll/DeleteAll';
+import About from './Components/About/About.js';
+import ReadSingle from './Components/ReadSingle/ReadSingle';
 
 //Assets
 import logo from './Img/logo.png'
@@ -41,6 +42,7 @@ function App() {
             <Route path='/create' component={Create}></Route>
             <Route path='/delete-all' component={DeleteAll}></Route>
             <Route path='/about' component={About}></Route>
+            <Route path='/view/:id' component={ReadSingle}></Route>
           </Switch>
           </Col>
         </Row>
