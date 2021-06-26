@@ -64,7 +64,7 @@ class ReadAll extends Component {
                 </Container>
             );
         } else { // SE JA TIVER CARREGADO:
-            if (filteredItems == false) { // SE NÃO HOUVER ITENS FILTRADOS
+            if (filteredItems === false) { // SE NÃO HOUVER ITENS FILTRADOS
                 return (
                     <Container>
                         <Row>
