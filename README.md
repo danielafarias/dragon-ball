@@ -1,3 +1,8 @@
+# Screenshots
+![dragonball1](https://user-images.githubusercontent.com/79869120/123508962-10ef3180-d649-11eb-97a8-b3c66bb0fa9f.jpg)
+![dragonball2](https://user-images.githubusercontent.com/79869120/123508963-1187c800-d649-11eb-86ca-ba48ba22612e.jpg)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
