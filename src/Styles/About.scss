@@ -1,0 +1,37 @@
+.btn.btn-info {
+    background-color: #de0010;
+    border-color: #ffffff;
+}
+
+.btn.btn-info:hover {
+    background-color: #db222f;
+    border-color: ffffff;
+}
+
+.text-muted {
+    text-align:justify;
+}
+
+
+.card {
+    width: 100%;
+
+    .card-img-top {
+        width: 50%;
+        margin-top: 3rem;
+        border-radius: 999px;
+    }
+
+    .card-text {
+        font-size: 1.5rem;
+    }
+
+    .btn.btn-info {
+        font-size: 1.7rem;
+        width: 15rem;
+    }
+
+    .btn.btn-info:hover {
+        box-shadow: 4px 4px 2px #ffff00;
+    }
+}

@@ -1,0 +1,26 @@
+.item-card.card {
+    cursor: pointer;
+    margin-bottom: 2rem;
+    background-color: #efefef;
+}
+
+.item-card.card:hover {
+    background-color: #de000fd5;
+    opacity: 0.9;
+    margin-left: 0.7rem;
+    transition: 0.4s;
+}
+
+.card-title.h5 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 0px #f6ac1e;
+}
+
+.card-title.h5:hover {
+    color: #efefef;
+    text-shadow: 2px 2px 0px #000;
+    transition: 0.4s;
+}
+
+

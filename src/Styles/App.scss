@@ -16,23 +16,26 @@ body {
     justify-content: center;
 
     .logoImg {
-        width: 16rem;
-        padding: 1rem;
+        width: 30rem;
+        padding: 2rem;
     }
 }
 
-.navbar {
+.justify-content-center {
     background-color: #de0010;
-    font-weight: 400;
-}
 
-#link-style {
-    color: #ffffff;
-    font-weight: 400;
-}
+    #link-style {
+        color: #ffffff;
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-shadow: 2px 2px 1px #000;
+    }
 
-#link-style:hover {
-    font-weight: 300;
+    #link-style:hover {
+        margin: 0 1rem 0 1rem;
+        transition: 0.5s;
+        color:#f6ac1e;
+    }
 }
 
 .app-container {
